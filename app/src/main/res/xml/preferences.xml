@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.preference.PreferenceScreen
+    xmlns:android="http://schemas.android.com/apk/res/android"
+  >
+
+    <PreferenceCategory
+        android:title="@string/preference_volume_title"
+        android:icon="@drawable/settings">
+
+        <SeekBarPreference
+            android:key="volume_notifications"
+            android:title="@string/preference_volume_title"
+            android:defaultValue="50"
+            android:max="100"
+
+          />
+    </PreferenceCategory>
+
+
+    <!-- Categoría de música -->
+    <PreferenceCategory
+        android:title="@string/preference_music_title"
+        android:icon="@drawable/settings">
+
+        <SwitchPreferenceCompat
+            android:key="music_enabled"
+            android:title="@string/preference_music_title"
+            android:summaryOff="@string/summary_music_disabled"
+            android:summaryOn="@string/summary_music_enabled"
+            android:defaultValue="true" />
+
+        <SwitchPreferenceCompat
+            android:key="welcome_video_enabled"
+            android:title="@string/preference_welcome_video_title"
+            android:summaryOff="@string/summary_welcome_video_disabled"
+            android:summaryOn="@string/summary_welcome_video_enabled"
+            android:defaultValue="true" />
+    </PreferenceCategory>
+
+    <!-- Categoría de idioma -->
+    <PreferenceCategory
+        android:title="@string/preference_language_title"
+        android:icon="@drawable/settings">
+
+        <ListPreference
+            android:key="language"
+            android:title="@string/preference_language_title"
+            android:defaultValue="@string/default_language"
+            android:entries="@array/language_entries"
+            android:entryValues="@array/language_values"
+            android:summary="@string/preference_language_summary"
+            android:selectable="true" />
+    </PreferenceCategory>
+
+    <!-- Categoría de origen de datos -->
+    <PreferenceCategory
+        android:title="Origen de datos"
+        android:icon="@drawable/settings">
+
+        <ListPreference
+            android:key="data_source"
+            android:title="@string/preference_data_source_title"
+            android:defaultValue="@string/default_data_source"
+            android:entries="@array/data_source_entries"
+            android:entryValues="@array/data_source_values"
+            android:summary="@string/preference_data_source_summary"
+            android:selectable="true" />
+    </PreferenceCategory>
+
+
+
+
+</androidx.preference.PreferenceScreen>

@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/bg_bottom_sheet_dark"
+    android:orientation="vertical"
+    android:padding="24dp">
+
+    <View
+        android:layout_width="40dp"
+        android:layout_height="4dp"
+        android:layout_gravity="center"
+        android:layout_marginBottom="24dp"
+        android:background="#33FFFFFF" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="POLÍTICA DE PRIVACIDAD"
+        android:textColor="#FFFFFF"
+        android:textSize="20sp"
+        android:fontFamily="sans-serif-black"
+        android:letterSpacing="0.05" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="350dp"
+        android:layout_marginTop="16dp"
+        android:fadeScrollbars="false"
+        android:scrollbarThumbVertical="@android:color/darker_gray">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="RESPONSABLE DEL TRATAMIENTO"
+                android:textColor="#FF4500"
+                android:textSize="12sp"
+                android:textStyle="bold"
+                android:layout_marginBottom="4dp"/>
+<!--   android:text="FRANCISCO ORTUÑO FUENTES\nCIF: 48732405M\nAV DUQUE TAMAMES, 7 BAJO A 03300\nORIHUELA ALICANTE"-->
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+            android:text="ENTRENADOR \nCIF: 1234567Z\n CALLE RUZAFA, 7 BAJO A 46014\nVALENCIA VALENCIA"
+                android:textColor="#FFFFFF"
+                android:textSize="13sp"
+                android:lineSpacingExtra="4dp"
+                android:layout_marginBottom="20dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="FINALIDAD Y LEGITIMACIÓN"
+                android:textColor="#FF4500"
+                android:textSize="12sp"
+                android:textStyle="bold"
+                android:layout_marginBottom="4dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Tratamos la información que nos facilita con el fin de enviarle información relacionada con nuestra propia empresa y servicios por cualquier medio (postal, email, teléfono u otros). Los datos se conservarán mientras no solicite el cese de la actividad. La legitimación se basa en su consentimiento al marcar la casilla de envío."
+                android:textColor="#CCFFFFFF"
+                android:textSize="13sp"
+                android:lineSpacingExtra="4dp"
+                android:layout_marginBottom="20dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="SUS DERECHOS"
+                android:textColor="#FF4500"
+                android:textSize="12sp"
+                android:textStyle="bold"
+                android:layout_marginBottom="4dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Tiene la posibilidad de ejercitar los derechos de acceso, rectificación, supresión, oposición, limitación del tratamiento y portabilidad de sus datos, remitiendo una solicitud por escrito a la dirección anteriormente indicada o vía email a gains.project.info@gmail.com, acompañando un documento para su identificación."
+                android:textColor="#CCFFFFFF"
+                android:textSize="13sp"
+                android:lineSpacingExtra="4dp"
+                android:layout_marginBottom="16dp"/>
+
+        </LinearLayout>
+    </ScrollView>
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btnCloseTerms"
+        android:layout_width="match_parent"
+        android:layout_height="64dp"
+        android:layout_marginTop="16dp"
+        android:text="HE LEÍDO Y ACEPTO"
+        android:textColor="#FFFFFF"
+        android:textStyle="bold"
+        android:textSize="15sp"
+        app:backgroundTint="#FF4500"
+        app:cornerRadius="16dp" />
+
+</LinearLayout>

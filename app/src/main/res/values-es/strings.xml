@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">MyTrains</string>
+    <string name="transforma_tu_vida_ncon_el_mejor_plan">TRANSFORMA TU VIDA\nCON EL MEJOR PLAN</string>
+    <string name="empieza_tu_cambio_de_manera_100_personalizada_con_una_asesor_a_dise_ada_exclusivamente_para_ti">Empieza tu cambio de manera 100% personalizada con una asesoría diseñada exclusivamente para ti.</string>
+    <string name="iniciar_sesi_n">INICIAR SESIÓN</string>
+    <string name="rehabilitaci_n_activa">Rehabilitación Activa</string>
+    <string name="recupera_tu_movilidad_y_fuerza_tras_una_lesi_n_con_un_enfoque_seguro_y_progresivo">Recupera tu movilidad y fuerza tras una lesión con un enfoque seguro y progresivo.</string>
+    <string name="optimiza_tu_figura_pierde_grasa_o_gana_masa_muscular_con_asesor_a_nutricional">Optimiza tu figura: pierde grasa o gana masa muscular con asesoría nutricional.</string>
+    <string name="entrenamientos_especializados">Entrenamientos Especializados</string>
+    <string name="preparaci_n_para_oposiciones_competiciones_o_condiciones_f_sicas_espec_ficas">Preparación para oposiciones, competiciones o condiciones físicas específicas.</string>
+    <string name="continuar">CONTINUAR</string>
+    <string name="ajustes">Ajustes</string>
+    <string name="tema">Tema</string>
+    <string name="cerrar_sesi_n">Cerrar Sesión</string>
+</resources>

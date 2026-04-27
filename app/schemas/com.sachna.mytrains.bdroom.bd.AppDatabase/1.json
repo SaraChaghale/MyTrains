@@ -1,0 +1,130 @@
+{
+  "formatVersion": 1,
+  "database": {
+    "version": 1,
+    "identityHash": "12f187c51f27ab83ef252e3e50186767",
+    "entities": [
+      {
+        "tableName": "workout_stats",
+        "createSql": "CREATE TABLE IF NOT EXISTS `${TABLE_NAME}` (`firebaseId` TEXT NOT NULL, `exerciseName` TEXT NOT NULL, `coachComment` TEXT NOT NULL, `targetSeries` TEXT NOT NULL, `targetReps` TEXT NOT NULL, `targetRIR` TEXT NOT NULL, `targetRest` TEXT NOT NULL, `weight` TEXT NOT NULL, `repRealizada` TEXT NOT NULL, `repPosible` TEXT NOT NULL, `userNotes` TEXT NOT NULL, `nomSesion` TEXT NOT NULL, `numSemana` INTEGER NOT NULL, `grupo_muscular` TEXT NOT NULL, `date` INTEGER NOT NULL, `isCompleted` INTEGER NOT NULL, `imageRes` INTEGER NOT NULL, PRIMARY KEY(`firebaseId`))",
+        "fields": [
+          {
+            "fieldPath": "firebaseId",
+            "columnName": "firebaseId",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "exerciseName",
+            "columnName": "exerciseName",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "coachComment",
+            "columnName": "coachComment",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "targetSeries",
+            "columnName": "targetSeries",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "targetReps",
+            "columnName": "targetReps",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "targetRIR",
+            "columnName": "targetRIR",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "targetRest",
+            "columnName": "targetRest",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "weight",
+            "columnName": "weight",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "repRealizada",
+            "columnName": "repRealizada",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "repPosible",
+            "columnName": "repPosible",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "userNotes",
+            "columnName": "userNotes",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "nomSesion",
+            "columnName": "nomSesion",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "numSemana",
+            "columnName": "numSemana",
+            "affinity": "INTEGER",
+            "notNull": true
+          },
+          {
+            "fieldPath": "grupo_muscular",
+            "columnName": "grupo_muscular",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "date",
+            "columnName": "date",
+            "affinity": "INTEGER",
+            "notNull": true
+          },
+          {
+            "fieldPath": "isCompleted",
+            "columnName": "isCompleted",
+            "affinity": "INTEGER",
+            "notNull": true
+          },
+          {
+            "fieldPath": "imageRes",
+            "columnName": "imageRes",
+            "affinity": "INTEGER",
+            "notNull": true
+          }
+        ],
+        "primaryKey": {
+          "autoGenerate": false,
+          "columnNames": [
+            "firebaseId"
+          ]
+        },
+        "indices": [],
+        "foreignKeys": []
+      }
+    ],
+    "views": [],
+    "setupQueries": [
+      "CREATE TABLE IF NOT EXISTS room_master_table (id INTEGER PRIMARY KEY,identity_hash TEXT)",
+      "INSERT OR REPLACE INTO room_master_table (id,identity_hash) VALUES(42, '12f187c51f27ab83ef252e3e50186767')"
+    ]
+  }
+}

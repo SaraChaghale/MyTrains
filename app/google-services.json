@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "157770662049",
+    "project_id": "mytrains-872c2",
+    "storage_bucket": "mytrains-872c2.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:157770662049:android:690e96ad5c6e1ea87e30e0",
+        "android_client_info": {
+          "package_name": "com.sachna.mytrains"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "157770662049-97u2eo843ci310ps1bg4ao4cvee3315a.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.sachna.mytrains",
+            "certificate_hash": "7498d80baa7bcb0504f2d205b3ea35e7c69d09be"
+          }
+        },
+        {
+          "client_id": "157770662049-o5u01f9146ar2c79fm59sq501it6brvi.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB_8842Nb_XsY7sqJkL10vJaOicjo8XRYk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "157770662049-o5u01f9146ar2c79fm59sq501it6brvi.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

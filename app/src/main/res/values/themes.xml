@@ -1,0 +1,24 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <style name="Base.Theme.MyTrains" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="colorPrimary">@color/gains_accent_orange</item>
+        <item name="colorOnPrimary">@color/white</item>
+
+        <item name="android:windowBackground">@color/gains_bg_deep</item>
+        <item name="colorSurface">@color/gains_card_surface</item>
+        <item name="colorSurfaceVariant">@color/gains_item_surface</item>
+
+        <item name="colorOnSurface">@color/gains_text_primary</item>
+        <item name="colorOnSurfaceVariant">@color/gains_text_secondary</item>
+        <item name="colorOutline">@color/gains_text_tertiary</item>
+
+        <item name="colorSecondary">@color/gains_accent_orange</item>
+        <item name="colorOnSecondary">@color/black</item>
+
+        <item name="android:statusBarColor">@color/black</item>
+        <item name="android:windowLightStatusBar">false</item>
+
+        <item name="android:navigationBarColor">@color/gains_bg_deep</item>
+    </style>
+
+    <style name="Theme.MyTrains" parent="Base.Theme.MyTrains" />
+</resources>

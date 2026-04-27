@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+    <color name="gains_bg_deep">#101010</color>
+    <color name="gains_card_surface">#1F1F1F</color>
+    <color name="gains_item_surface">#2A2A2A</color>
+    <color name="gains_accent_orange">#FF6D00</color>
+    <color name="gains_text_primary">#FFFFFF</color>
+    <color name="gains_text_secondary">#B3FFFFFF</color>
+    <color name="gains_text_tertiary">#80FFFFFF</color>
+    <color name="color_accent">@color/gains_accent_orange</color>
+    <color name="input_line_default">@color/gains_text_secondary</color>
+    <color name="background_dark">@color/gains_bg_deep</color>
+    <color name="surface_dark">@color/gains_card_surface</color>
+
+
+</resources>
